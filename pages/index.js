@@ -10,8 +10,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Agboola Oyekola | Product Designer</title>
-        <meta name="description" content="I’m a product designer specialized in designing user interfaces for an exceptional digital experiences." />
+        <title>Victor Oladejo | Data Engineer</title>
+        <meta name="description" content="I’m a professional responsible for designing, constructing, and maintaining big data 
+          and infrastructure necessary for processing, storing, and analyzing large volumes of data." />
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />

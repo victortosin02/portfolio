@@ -3,9 +3,9 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaFileArchive, FaLinkedinIn } from "react-icons/fa";
+import { FaFileArchive, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/contact.jpg";
+import ContactImg from "../public/assets/victor picture (1).png";
 
 const Contact = () => {
   return (
@@ -27,8 +27,8 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Agboola Oyekola</h2>
-                <p>Product Designer</p>
+                <h2 className="py-2">Victor Oladejo</h2>
+                <p>Data Engineer</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
@@ -38,7 +38,7 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/agboolaoyekola1990/"
+                    href="https://www.linkedin.com/in/victor-oladejo-75357113b/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -47,16 +47,16 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href="mailto: josephajani46@gmail.com"
+                    href="https://github.com/victortosin02/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <AiOutlineMail />
+                      <FaGithub />
                     </div>
                   </a>
                   <a
-                    href="https://us.docworkspace.com/d/sIGq-46NN6Kr0ngY/"
+                    href="mailto: victortosin01@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -90,6 +90,7 @@ const Contact = () => {
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="name"
+                      required
                     />
                   </div>
                   <div className="flex flex-col">
@@ -100,6 +101,7 @@ const Contact = () => {
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="phone"
+                      required
                     />
                   </div>
                 </div>
@@ -109,6 +111,7 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
                     name="email"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -117,6 +120,7 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
                     name="subject"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -125,6 +129,7 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
                     name="message"
+                    required
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">

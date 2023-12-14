@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/hod.jpeg';
+import AboutImg from '../public/assets/victor picture (1).png';
 
 const About = () => {
   return (
@@ -13,21 +13,21 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI and screens 
-            for applications. I’m passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building design screens for applications using Figma, Adobe, and
-            other design tools. I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great designer is not using one
-            specific tool, but choosing the best tool for the job.
+          I am a professional responsible for designing, constructing, and maintaining big data
+          infrastructure necessary for processing, storing, and analyzing large volumes of data.
+          As a professional with astute experience in processing large datasets, data architecture 
+          including data ingestion pipeline design, data governance, data modeling, and CI/CD design. 
+          My focus on data integrity and cross-functional integrations both on and off the cloud has 
+          consistently boosted efficiency coupled with optimized and scalable data pipelines.
           </p>
           <p className='py-2 text-gray-600'>
-            I started product design in 2021 managing by designing screens for
-            Learning Managemnt Systems, Mortgage Finder, Laundry Application,
-            Logistics App and may more. I have experience designing
-            mock wireframes and prototypes for designed applications. I also conduct 
-            UX development, feasibility and competitor analysis to ensure that the User
-            Interface ensures an engaging user experience for application end users
+            I started Data Engineering in one of the renowned Artifical Intelligence Academy in Africa,
+            Explore AI Academy based in South Africa. After my intensive course work at Explore AI, I went
+            ahead to pursue an Internship with the Academy where I worked in a cross-functional team of Data 
+            Engineers and scientist and able to build a career recommendation system using core and advanced
+            machine learning models. Due to my prior knowledge as a software engineer, I was able to help the
+            team to integrate the models into a web user interface and responsible for maintaining the interface
+            data pipeline.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

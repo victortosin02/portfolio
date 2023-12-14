@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaFileArchive, FaLinkedinIn } from "react-icons/fa";
+import { FaFileArchive, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -10,19 +10,19 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
-            LET&#39;S BUILD SOMETHING TOGETHER
+            LET&#39;S BRING YOUR DATA INITIATIVES TO LIFE
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I&#39;m <span className="text-[#5651e5]"> Agboola</span>
+            Hi, I&#39;m <span className="text-[#5651e5]">Victor</span>
           </h1>
-          <h1 className="py-2 text-gray-700">A Product Designer</h1>
+          <h1 className="py-2 text-gray-700">A Data Engineer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I’m focused on building product screens for web and mobile
-            applications
+            I’m focused on designing, constructing, and maintaining big data
+            infrastructure necessary for processing, storing, and analyzing large volumes of data.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
-              href="https://www.linkedin.com/in/agboolaoyekola1990/"
+              href="https://www.linkedin.com/in/victor-oladejo-75357113b/"
               target="_blank"
               rel="noreferrer"
             >
@@ -31,7 +31,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="mailto: josephajani46@gmail.com"
+              href="mailto: victortosin01@@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -39,11 +39,15 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </a>
-            <Link href="/#contact">
+            <a
+              href="https://github.com/victortosin02"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaFileArchive />
+                <FaGithub />
               </div>
-            </Link>
+            </a>
             <Link href="/resume">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
