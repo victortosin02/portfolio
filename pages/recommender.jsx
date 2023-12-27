@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Recommender from "../public/assets/projects/recommender.png";
+import Recommender from "../public/assets/projects/recommender.PNG";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
