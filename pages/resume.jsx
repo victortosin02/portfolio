@@ -45,9 +45,8 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated product designer with experience
-          in User Interface and Experience and organizational effectiveness in
-          fast-paced and challenging environments. Adept at developing
+          Analytical, innovative, and motivated data engineer with experience
+          in building, designing and maintaining data pipelines. Adept at developing
           strategies and driving streamlined operations. Diverse analytical
           skills, team collaboration, and relationship building. Consummate
           professional, and solid interpersonal abilities and complex
